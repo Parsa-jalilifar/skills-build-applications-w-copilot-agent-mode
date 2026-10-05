@@ -1,9 +1,8 @@
 ---
-mode: 'agent'
-model: GPT-5.5
-description: 'Configure MongoDB and seed octofit_db for the Octofit multi-tier application'
+name: init-populate-octofit-db
+description: Configure MongoDB and seed octofit_db for the Octofit multi-tier application
+disable-model-invocation: true
 ---
-
 Set up and populate the data tier for `octofit-tracker/backend`.
 
 Requirements:

@@ -1,9 +1,8 @@
 ---
-mode: 'agent'
-model: GPT-5.5
-description: 'Create the Node.js logic tier for the Octofit multi-tier application'
+name: create-express-logic-tier
+description: Create the Node.js logic tier for the Octofit multi-tier application
+disable-model-invocation: true
 ---
-
 Create the logic tier in `octofit-tracker/backend` for the Octofit Tracker multi-tier application.
 
 Requirements:
